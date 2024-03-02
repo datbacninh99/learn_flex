@@ -1,0 +1,147 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.item:nth-child(1) {
+    background-color: red;
+    order: 2;
+}
+
+.item:nth-child(2) {
+    background-color: green;
+    order: 1;
+}
+
+.item:nth-child(3) {
+    background-color: yellow;
+    order: 0;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.main-layout {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-example {
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-example h3 {
+    font-weight: 100;
+    color: black;
+    font-size: 2rem;
+}
+
+.section-example p {
+    font-size: 14px;
+    color: gray;
+}
+
+.example-btn {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.example-btn button {
+    padding: 5px 8px;
+    outline: none;
+    border: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.example-btn button:first-child {
+    background-color: rgb(0, 0, 177);
+}
+
+.example-btn button:last-child {
+    background-color: gray;
+}
+
+.section-card {
+    margin-top: 100px;
+    background-color: rgb(228, 228, 228);
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.card-img {
+    background-image: url("https://picsum.photos/200/300");
+    width: 100px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card p {
+    padding: 5px 7px;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+}
+
+.card-btn-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 0 7px;
+    padding: 0 7px 10px;
+}
